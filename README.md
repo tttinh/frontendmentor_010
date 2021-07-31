@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://tttinh.github.io/frontendmentor_010/)
+- [Solution URL](https://www.frontendmentor.io/solutions/huddle-landing-page-with-alternating-feature-blocks-Kb-MYbK-c)
+- [Live Site URL](https://tttinh.github.io/frontendmentor_010/)
 
 ## My process
 
