@@ -121,6 +121,10 @@ footer .container {
   justify-self: start;
 }
 
+.footer__content {
+  margin-top: 2rem;
+}
+
 .footer__contact {
   margin: 1rem 0;
 }
@@ -133,7 +137,7 @@ footer .container {
   display: grid;
   grid-template-columns: 40px auto;
   align-items: center;
-  margin: 2rem 0;
+  margin-bottom: 2rem;
 }
 
 .location-icon {
@@ -217,17 +221,13 @@ footer .container {
 }
 
 .circle {
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
   border: 2px solid white;
   margin: 0 0.5rem;
   display: grid;
   place-items: center;
-}
-
-.circle i {
-  font-size: 1.25rem;
 }
 
 .btn {
@@ -314,6 +314,61 @@ footer .container {
     position: relative;
     top: 100px;
     z-index: 1;
+  }
+
+  /* FOOTER */
+  footer {
+    padding-top: 12rem;
+    background-color: var(--clr-dark-cyan);
+    color: var(--clr-pale-cyan);
+  }
+
+  footer .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bottom-logo {
+    width: min(45vw, 250px);
+    justify-self: start;
+  }
+
+  .footer__content {
+    display: grid;
+    grid-template-columns: 32% auto auto;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .footer__contact {
+    margin: 0;
+  }
+
+  .location-icon {
+    margin-top: 10px;
+  }
+
+  .footer__links {
+    margin-top: 0;
+    display: grid;
+    gap: 8rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer__links li {
+    margin: 0 0 1rem;
+  }
+
+  .footer__socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .copyright {
+    text-align: right;
+    margin-bottom: 4rem;
   }
 
   /* UTILITIES */
